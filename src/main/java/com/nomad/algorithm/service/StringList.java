@@ -7,6 +7,8 @@ public interface StringList {
 
     String set(int index, String item);
 
+    String remove(String item);
+
     String remove(int index);
 
     boolean contains(String item);
